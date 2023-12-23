@@ -8,9 +8,10 @@
 int main()
 {
     //Write Hello World to the terminal with puts  ("put string")
-    puts("***********");
+
+    puts("***********"); //line 1
     puts("Hello World");
-    puts("***********");
+    puts("***********"); //line 2
 
 
     /*

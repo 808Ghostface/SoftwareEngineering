@@ -7,11 +7,13 @@ int main()
 
 
     // ************************ Using printf ******************************* 
-    printf("Hello Everyone. We are using C\nHow are things?\n");
+    printf("Hello Everyone. We are using C\nWe will learn a lot\n");
     // TASK (a) - remove \n from the string above - what does this change? 
     
+    //ANSWER: it creates a break after the character "C"
+
     // ******************* Using printf placeholders *********************** 
-    int age = 23;
+    int age = 22;
     printf("My age is %d\n", age);
 
     // Some other placeholders include %c for character and %f for floating point
@@ -20,7 +22,7 @@ int main()
 
     // TASK(b) - Use printf to display the value of the variable area. Look at the lecture slides and find out how to limit this to 3 decimal places
     // Write solution here
-    
+    printf("The variable area is %f\n", area);
     //
 
     // You can output complex strings to the terminal
