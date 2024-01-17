@@ -9,10 +9,11 @@ int main()
     do
     {
         printf("i = %d\n", i);
-        i = i + 1;              // Alternatively, write i++;
-    } while (i < 5);            //Repeat if condition is met
+        i = i + 1;              //Alternatively, we write i++;
+    } while (i < 5);            //Repeats if condition is met
 
-    printf("Finished: i = %d\n", i);
+    printf("Finished: i = % d\n", i);
+
 }
 
 
